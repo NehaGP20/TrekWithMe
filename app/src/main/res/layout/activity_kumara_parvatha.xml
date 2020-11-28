@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KumaraParvatha"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bc3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kumara Parvatha – The 6th Highest Peak In Karnataka"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kumara"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        CardView_cardBackgroundColor="#ffffff"
+        CardView_cardCornerRadius="18dp"
+        CardView_cardElevation="5dp"
+        CardView_cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Famously called Pushpagiri, Kumara Parvatha is known to be the highest peak in Pushpagiri wildlife sanctuary. This also holds a record of being the 6th highest peak of Karnataka. The Kumara Parvatha trek is one of the toughest and challenging treks of South which takes around 2 days to complete. The total distance of the trek is 13 kms and it is located at a height of 4000 feet. Situated at the Subrahmanya village, this is one of the ideal treks to experience by the adventure junkies."
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="12dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance between Kumar Parvatha and Bangalore: 258 Kms"
+                    android:textStyle="bold"
+                    android:padding="9dp"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Highlights: Scenic views, Village lifestyle"
+                    android:textStyle="bold"
+                    android:padding="11dp"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Packages Details   "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_details"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Click for Location    "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loc"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

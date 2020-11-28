@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BilikalRangaswamyBetta"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bc5"
+    android:alpha="0.9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Bilikal Rangaswamy Betta – See The White Rocks "
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bilikal"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.cardview.widget.CardView
+        CardView_cardBackgroundColor="#ffffff00"
+        CardView_cardCornerRadius="18dp"
+        CardView_cardElevation="5dp"
+        CardView_cardUseCompatPadding="true"
+        android:layout_width="wrap_content"
+        android:layout_height="415dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Bilikal Rangaswamy Betta in the Eastern Ghats is one of the most popular trekking places in Bangalore situated near the famed Kanakapura town. It is also one of the highest hill towns in the area, thus making your trek all the more thrilling. It is also known as Bilikal Betta sometimes which means white rocks. It’s an excellent destination for short treks near Bangalore if you’re more into easy level trekking. Once you’re at the top, you can bask in the awesome views and visit the temple dedicated to Lord Rangaswamy. You can also visit at the time of the Rangaswamy temple festival at the top that locals celebrate there."
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Distance from Bangalore: 75 km"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Highlights: Temple on top, breathtaking views"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Packages Details   "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_details"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Click for Location    "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loc"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

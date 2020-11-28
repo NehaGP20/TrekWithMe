@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Madhugiri"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bc11">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Madhugiri – One Of The Least Explored Trekking Spots"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/madhugiri"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        CardView_cardBackgroundColor="#ffffff"
+        CardView_cardCornerRadius="18dp"
+        CardView_cardElevation="5dp"
+        CardView_cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Madhugiri is the second-largest monolithic rock after Savanagiri and amongst the most beautiful offbeat places near Bangalore. On the way, one can see Madhugiri Fort built by Hyder Ali, which was infested with honey bee colonies soon after it was built. Though it’s among the best trekking places near Bangalore, the one and a half hours long trekking duration can be quite challenging at some stretches."
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance from Bangalore: 100 km"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="21dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Highlights: Architectural ruins of Gopalakrishna Temple on the peak"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="21dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Packages Details   "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_details"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Click for Location    "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loc"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

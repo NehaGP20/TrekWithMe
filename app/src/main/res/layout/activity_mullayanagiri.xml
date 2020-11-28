@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mullayanagiri"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bc11">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mullayanagiri – Go For Mountain Biking"
+        android:textSize="21dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mullayanagiri"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        CardView_cardBackgroundColor="#ffffff"
+        CardView_cardCornerRadius="18dp"
+        CardView_cardElevation="5dp"
+        CardView_cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mullayanagiri is a beautiful place situated at the Baba Budan Giri Range of Western Ghats. This is considered as the highest peak which is located between the Nilgiris and the Himalayas. Surrounded by the beautiful view of nature’s finest beauty and grassland, this is one of the must visit places for adventure lovers. This is a 4 km trek which starts from Sarpadhari and has a steep trail. There are other fun activities like mountain biking and road biking which is worth experiencing."
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance between Mullayanagiri and Bangalore: 264 Kms"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Highlights: Mountain biking trail"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Packages Details   "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_details"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Click for Location    "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loc"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

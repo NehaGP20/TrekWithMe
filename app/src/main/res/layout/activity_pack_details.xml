@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackDetails"
+    android:orientation="vertical"
+    android:background="@drawable/pic3"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inclusion/Exclusion"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:textColor="#ffffff"
+        android:background="#CA407834"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:background="#92D3DFD5"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="AC Private Coach from Bangalore to Bangalore"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="2 Breakfast"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="1 Lunch"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="1 Dinner"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Trekking, River Kayaking and Low Rope Course"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Camping in Tents "
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Basic First Aid Support"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Professional instructor"
+                    android:textColor="@color/black"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

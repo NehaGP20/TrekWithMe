@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anthargange"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bc3"
+    android:alpha="0.9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anthargange – A Unique Little Place In Karnataka"
+        android:textSize="25dp"
+        android:textColor="#090101"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anthargange"
+        android:layout_marginTop="12dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        CardView_cardBackgroundColor="#ffffff"
+        CardView_cardCornerRadius="16dp"
+        CardView_cardElevation="5dp"
+        CardView_cardUseCompatPadding="true"
+        android:layout_width="wrap_content"
+        android:layout_height="381dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Volcanic rocks, boulders, caves, and small hillocks have made Anthargange one of the most frequently visited trekking places around Bangalore. This trail is a combination of trekking and cave exploration. This is a 3-km long journey that takes you through tough, tricky trails and some of the most gorgeous vistas. Considered to be one of the best places for solo trekking near Bangalore, the trek is of any easy level and absolutely scenic, which makes it one of the best treks near Bangalore."
+                    android:textSize="15.5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Distance from Bangalore: 70 km"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Difficulty Level: Easy to moderate"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Highlights: Overnight camping in the caves"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Packages Details   "
+        android:layout_marginTop="20dp"
+        android:background="#2C8A29"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn_details"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Click for Location    "
+            android:layout_marginTop="20dp"
+            android:background="#2C8A29"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loc"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
