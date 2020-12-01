@@ -9,6 +9,7 @@ The great mountain ranges are some of the most beautiful and interesting areas o
 To create an android application which will give services to a tourist. A tourist needs modern technologies which can serves for them. So the android application should be easy to use and efficient to manage the trekking activities. The proper trekking guide is not available which could detect a current location, calculate distance and provide proper guidelines
 
 1.	Java API framework
+
         The entire feature-set of the Android OS is available to you through APIs written in the Java language. These APIs form the building blocks you need to create Android apps by simplifying the reuse of core, modular system components and services, which include the following: 
 	A rich and extensible View System you can use to build an app’s UI, including lists, grids, text boxes, buttons, and even an embeddable web browser.
 	A Resource Manager, providing access to non-code resources such as localized strings, graphics, and layout files.
@@ -18,6 +19,7 @@ To create an android application which will give services to a tourist. A touris
 
 
 2.	Google API
+
         Google APIs is a set of application programming interfaces (APIs) developed by Google which allow communication with Google Services and their integration to other services. Examples of these include Search, Gmail, Translate or Google Maps. Third-party apps can use these APIs to take advantage of or extend the functionality of the existing services.
 The APIs provide functionality like analytics, machine learning as a service (the Prediction API) or access to user data (when permission to read the data is given). Another important example is an embedded Google map on a website, which can be achieved using the Static maps API, Places API or Google Earth API.
 •	Four Square API
@@ -39,6 +41,7 @@ You can currently request output in XML or JSON format, making requests to URLs 
 •	On clicking the package details button on every description page it leads to another screen with inclusive and exclusives of the trekking package.
 
 4. Conclusion
+
         To create an android application which will give services to a tourist .A tourist needs modern technologies which can serves for them. So the android application should be easy to use and efficient to manage the trekking activities. The proper trekking guide is not available which could detect a current location, calculate distance and provide proper guidelines. Different problems arise while a tourist travel to trekking spot which can address by development of the system which will provide accurate global positing system (GPS) coordinates ,provide real time direction, textual and pictorial information about the trekking locations.
         
 In the above discussion, it is obvious that android platform has an efficient mobile platform. Android was developed to allow the application creator to write inventive application and their individual source code. We take this environment to implement and design a trekking guide application that helps to find nearby treks and go discover different mountain rages with their friends and family, with simple GUI.
