@@ -26,12 +26,22 @@ To create an android application which will give services to a tourist. A touris
 # Software Specifications:-
 
 	Android Studio
-  o	Android
+
+  o Android
+  
   o	Linux Kernel
+  
   o	Hardware Abstraction Layer (HAL)
+  
   o	Android Runtime
+  
   o	Native c/c++ libraries
+  
   o	Java API framework
+  
+# Block Diagram
+
+![](Images/BlockDiagram.png)
 
 # Google API
 
@@ -45,8 +55,46 @@ To create an android application which will give services to a tourist. A touris
  
   You can currently request output in XML or JSON format, making requests to URLs that look like this: http://api.foursquare.com/v1/user.json. If you don't use an extension on your request, then XML is served back to you. A request to http://api.foursquare.com/v1/user results in an XML output.
  
- # Images
-    Screenshots of the app is provided in the Image folder,please do check.
+ # Screenshots
+    
+     Logo Screen
+ ![](Images/Logo.png)
+ 
+     Menu Screen
+ ![](Images/Menu.png)
+  
+     Location Near Me Screen
+  ![](Images/LocationNearMe.png) 
+  
+     Navigation Screen
+  ![](Images/Navigation.png) 
+  
+     Place Suggestion-1 Screen
+  ![](Images/PlaceSuggestion1.png)
+  
+     Place Suggestion-2 Screen
+  ![](Images/PlaceSuggestion2.png)
+  
+     Place Suggestion-3 Screen
+  ![](Images/PlaceSuggestion3.png)
+  
+     Place Suggestion-4 Screen
+  ![](Images/PlaceSuggestion4.png)
+  
+     Package Details Screen
+  ![](Images/PackageDetails.png)
+  
+     Rent Gears-1 Screen
+  ![](Images/RentGears1.png)
+  
+     Rent Gears-2 Screen
+  ![](Images/RentGears2.png)
+  
+     Rent Gears-3 Screen
+  ![](Images/RentGears3.png)
+  
+      Package Guide Screen
+  ![](Images/PackageGuide.png)
     
  # Conclusion
  
