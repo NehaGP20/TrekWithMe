@@ -46,5 +46,5 @@ You can currently request output in XML or JSON format, making requests to URLs 
         
 In the above discussion, it is obvious that android platform has an efficient mobile platform. Android was developed to allow the application creator to write inventive application and their individual source code. We take this environment to implement and design a trekking guide application that helps to find nearby treks and go discover different mountain rages with their friends and family, with simple GUI.
 
-For this application we used four square API for detection of nearby places, and google API as well.
+For this application we used four square API for detection of nearby places, and google API as well..
 
