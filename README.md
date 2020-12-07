@@ -41,7 +41,7 @@ To create an android application which will give services to a tourist. A touris
   
 # Block Diagram
 
-![](Images/BlockDiagram.png)
+![](Images/Block1.png)
 
 # Google API
 
@@ -58,43 +58,43 @@ To create an android application which will give services to a tourist. A touris
  # Screenshots
     
      Logo Screen
- ![](Images/Logo.png)
+ ![](Images/Logo1.png)
  
      Menu Screen
- ![](Images/Menu.png)
+ ![](Images/Menu1.png)
   
      Location Near Me Screen
   ![](Images/LocationNearMe1.png) 
   
      Navigation Screen
-  ![](Images/Navigation.png) 
+  ![](Images/Navigation1.png) 
   
      Place Suggestion-1 Screen
-  ![](Images/PlaceSuggestion1.png)
+  ![](Images/PlaceSuggestion_1.png)
   
      Place Suggestion-2 Screen
-  ![](Images/PlaceSuggestion2.png)
+  ![](Images/PlaceSuggestion_2.png)
   
      Place Suggestion-3 Screen
-  ![](Images/PlaceSuggestion3.png)
+  ![](Images/PlaceSuggestion_3.png)
   
      Place Suggestion-4 Screen
-  ![](Images/PlaceSuggestion4.png)
+  ![](Images/PlaceSuggestion_4.png)
   
      Package Details Screen
-  ![](Images/PackageDetails.png)
+  ![](Images/PackageDetails1.png)
   
      Rent Gears-1 Screen
-  ![](Images/RentGears1.png)
+  ![](Images/RentGears_1.png)
   
      Rent Gears-2 Screen
-  ![](Images/RentGears2.png)
+  ![](Images/RentGears_2.png)
   
      Rent Gears-3 Screen
-  ![](Images/RentGears3.png)
+  ![](Images/RentGears_3.png)
   
       Package Guide Screen
-  ![](Images/PackageGuide.png)
+  ![](Images/PackageGuide1.png)
     
  # Conclusion
  
