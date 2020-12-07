@@ -64,7 +64,7 @@ To create an android application which will give services to a tourist. A touris
  ![](Images/Menu.png)
   
      Location Near Me Screen
-  ![](Images/LocationNearMe.png) 
+  ![](Images/LocationNearMe1.png) 
   
      Navigation Screen
   ![](Images/Navigation.png) 
